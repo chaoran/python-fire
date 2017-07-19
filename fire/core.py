@@ -211,7 +211,7 @@ def _PrintResult(component_trace, verbose=False):
                   (bool, six.string_types, six.integer_types, float, complex)):
     print(result)
   elif result is not None:
-    print(helputils.HelpString(result, component_trace, verbose))
+    print(result)
 
 
 def _DictAsString(result, verbose=False):
